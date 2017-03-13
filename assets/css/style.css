@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Poppins');
+
+.wrapper {
+	background-image: url("../images/maze.png");
+	padding: 20px;
+	height: 700px;
+}
+
+#small {
+	font-size: 12px;
+}
+
+h1, h2, h3 {
+	font-family: 'Philosopher', sans-serif;
+}
+
+h1 {
+	text-align: left;
+}
+
+body {
+	font-family: 'Poppins', serif;
+	text-align: center;
+}
+
+#timer {
+	text-align: left;
+}
+
+button {
+	display: block;
+	padding: 15px, 20px;
+	font-size: 20px;
+	background-color: #2440F2;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	margin: 7px auto;
+	min-width: 300px;
+}
+button:hover {
+	background-color: #1330E1; 
+	color: white;
+}
+
+#answers {
+	width: 100%;
+}

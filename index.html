@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<script
+  		src="https://code.jquery.com/jquery-3.1.1.min.js"
+  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class = "wrapper">
+	<div class ="header">
+		<h1>Second Greco-Persian War Trivia! <span id="small">Because I'm an extreme Greek history nerd and have no other ideas</span></h1>
+	</div>
+	<div class ="start">
+		<button>Start!</button>
+	</div>
+	<div class ="QA">
+		<div id = "questionArea">
+			<div id ="question">
+			</div>
+			<div id = "answers">
+				<ul id ="answerList">
+
+				</ul>
+			</div>
+		</div>
+		<div id = "answerPicture">
+		</div>
+		<div id ="timer">
+		</div>
+	</div>
+	<div class ="winState">
+		<h2>Congratulations! You Finished!</h2>
+		<p id = "correct"></p>
+		<p id = "incorrect"></p>
+		<button id ="reset">Play Again?</button>
+	</div>
+</div>
+<script src="assets/javascript/app.js"> </script>
+</body>
+</html>
